@@ -1,0 +1,143 @@
+//header start
+
+//navbar start
+.header-nav{
+    background: #1E212C;
+    height: 44px;
+}
+.header-nav-flex{
+     display: flex;
+    justify-content: space-between;
+    padding-top: 11px;
+    
+
+}
+.header-nav-tel{
+    &__info, &__link{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 150%;
+        color: #FFFFFF;
+        opacity: 0.6;
+        
+    }
+    &__link{
+        font-weight: 900;
+    }
+}
+.header-nav-menu{
+    &__links{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        margin-right: 32px;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    &__link{
+        font-family: 'Lato', sans-serif;
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+}
+.header-nav-account{
+    &__log-in{
+        padding-left: 8px;
+    }
+    &__log-in, &__registration{
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        line-height: 150%;
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+}
+//navbar end
+
+.main-menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.main-menu-type-clothes{
+    &__links{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        margin-right: 40px;
+    }
+    &__link{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        color: $gray-800;
+    }
+    &__link--active{
+        color: red;
+    }
+}
+
+.main-manu-search{
+    position: relative;
+    &__input{
+        width: 380px;
+        height: 44px;
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        padding-left: 16px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-size: 14px;
+        line-height: 150%;
+        color: $gray-600;
+        
+    }
+}
+.main-manu-search::before{
+    content: "";
+    position: absolute;
+    background: url(../img/icons/main-menu-search.svg);
+    width: 16px;
+    height: 16px;
+    right: 17px;
+    top: 14px;
+
+}
+
+.menu-sales{
+    background: #17696A;
+    height: 34px;
+    margin-top: 32px;
+}
+.menu-sales-info{
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    &__text{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 150%;
+        color: #FFFFFF;
+      
+    }
+    &__link{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+        padding-left: 4px;
+    }
+}
+
+//header end
