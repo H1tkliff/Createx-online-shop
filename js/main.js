@@ -17,3 +17,26 @@ $(document).ready(function () {
   });
 });
 
+
+
+//trending-slider
+$(document).ready(function () {
+  $(".trending-slider").slick({
+    // autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+  });
+});
+
+
+//sale slider
+$(document).ready(function () {
+  $(".sale-slider").slick({
+    // autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+  });
+});
+
+
+
