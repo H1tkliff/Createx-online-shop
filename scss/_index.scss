@@ -607,6 +607,25 @@
         color: $gray-900;
         margin-bottom: 60px;
     }
+    &__button{
+        margin-top: 180px;
+        margin: 0 auto;
+        display: block;
+        width: 209px;
+        height: 52px;
+        border: 1px solid $green-primary;
+        border-radius: 4px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 52px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: $green-primary;
+        margin-bottom: 122px !important; 
+    }
 }
 .sale-slider{
     position: relative;
@@ -685,3 +704,140 @@
 
 
 //sale end
+
+
+//market-links start
+.market-links{
+    background-color: $gray-900;
+    height: 300px;
+}
+.market-links-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.market-links-wrapper-item{
+    padding-right: 168px;
+    &__img{
+        display: block;
+        margin-top: -10%;
+    }
+    &__title{
+        width: 600px;
+        padding-top: 60px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 130%;
+        color: #FFFFFF;
+        margin-bottom: 48px;
+    }
+    &__appstore{
+        margin-right: 16px;
+    }
+}
+
+//market-links end
+
+//our advantages start
+.our-advantages{
+    margin-top: 120px;
+    margin-bottom: 180px;
+}
+.our-advantages-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.our-advantages-wrapper-item{
+    padding-right: 55px;
+    border-right: 1px solid rgb(223,223,225);
+    &__icon{
+        display: block;
+        margin: 0 auto;
+    }
+    &__title{
+        padding-top: 24px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        color: $gray-900;
+        margin-bottom: 8px;
+    }
+    &__info{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        text-align: center;
+        color: $gray-700;
+
+    }
+}
+
+//our advantages end
+
+//follow-us-instagram start
+.follow-us-instagram-wrapper{
+    display: flex;
+}
+.follow-us-instagram-item{
+    margin-right: 15px;
+    &__subtitle{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        align-items: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $gray-900;
+        margin-bottom: 8px;
+    }
+    &__title{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 46px;
+        line-height: 130%;
+        color: $gray-900;
+        margin-bottom: 60px;
+    }
+    &__button{
+        padding-left: 15px;
+        display: block;
+        position: relative;
+        width: 241px;
+        height: 52px;
+        border: 1px solid $green-primary;
+        border-radius: 4px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 52px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: $green-primary;
+
+    }
+     &__button::after{
+        position: absolute;
+        content: "";
+        background: url(../img/icons/Instagram.svg);
+        width: 24px;
+        height: 24px;
+        top: 14px;
+        left: 28px;
+     }
+}
+.follow-us-instagram-item--content{
+    margin-right: 125px;
+}
+
+//follow-us-instagram end
