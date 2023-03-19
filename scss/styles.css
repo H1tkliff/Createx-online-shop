@@ -278,7 +278,7 @@ h6 {
   align-items: center;
   text-align: center;
   letter-spacing: 0.5px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .start-screen-slider {
@@ -600,7 +600,7 @@ h6 {
   margin-top: 20px;
   width: 230px;
   height: 44px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid #D7DADD;
   border-radius: 4px;
   margin-left: 60px;
@@ -625,7 +625,7 @@ h6 {
   align-items: center;
   text-align: center;
   letter-spacing: 0.5px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .banners-container-item__text {
   margin-top: 20px;
@@ -905,7 +905,7 @@ h6 {
   font-weight: 900;
   font-size: 32px;
   line-height: 130%;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 48px;
 }
 .market-links-wrapper-item__appstore {
@@ -949,6 +949,10 @@ h6 {
   line-height: 160%;
   text-align: center;
   color: #787A80;
+}
+
+.follow-us-instagram {
+  margin-bottom: 180px;
 }
 
 .follow-us-instagram-wrapper {
@@ -1009,6 +1013,305 @@ h6 {
 
 .follow-us-instagram-item--content {
   margin-right: 125px;
+}
+
+.fashion-blog {
+  margin-bottom: 120px;
+}
+.fashion-blog__container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.fashion-blog__title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+.fashion-blog__button {
+  width: 130px;
+  height: 44px;
+  border: 1px solid #17696A;
+  border-radius: 4px;
+  color: #17696A;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+}
+
+.fashion-blog-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fashion-blog-wrapper-item {
+  width: 600px;
+  height: 482px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 0 0 1px #000;
+}
+.fashion-blog-wrapper-item__title {
+  padding-top: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+  margin-bottom: 12px;
+  padding-left: 24px;
+}
+.fashion-blog-wrapper-item__title--green {
+  color: #17696A;
+}
+.fashion-blog-wrapper-item__category, .fashion-blog-wrapper-item__data, .fashion-blog-wrapper-item__comments {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  align-items: center;
+  color: #787A80;
+  border-right: 1px solid #787A80;
+  padding-right: 12px;
+  padding-left: 24px;
+}
+.fashion-blog-wrapper-item__data {
+  padding-left: 12px;
+}
+.fashion-blog-wrapper-item__comments {
+  padding-right: 0px;
+  padding-left: 33px;
+  position: relative;
+  border-right: 0px;
+  padding-left: 24px;
+}
+.fashion-blog-wrapper-item__comments::before {
+  position: absolute;
+  content: "";
+  background: url(../img/icons/chat.svg);
+  width: 16px;
+  height: 16px;
+  left: 11px;
+}
+.fashion-blog-wrapper-item__info {
+  padding-top: 16px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  width: 551px;
+  padding-left: 24px;
+}
+
+.partners {
+  margin-bottom: 120px;
+}
+
+.partners-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe {
+  background-color: #F4F5F7;
+}
+
+.subscribe-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe-wrapper-item__title {
+  padding-top: 100px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+  margin-bottom: 24px;
+}
+.subscribe-wrapper-item__text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #787A80;
+  margin-bottom: 32px;
+}
+.subscribe-wrapper-item__button {
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  width: 82px;
+  height: 32px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: #787A80;
+  background-color: #F4F5F7;
+  margin-right: 12px;
+}
+.subscribe-wrapper-item__button--active {
+  background: #17696A;
+  color: #FFFFFF;
+}
+.subscribe-wrapper-item__form {
+  padding-top: 32px;
+}
+.subscribe-wrapper-item__label {
+  display: block;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  margin-bottom: 8px;
+}
+.subscribe-wrapper-item__input {
+  width: 495px;
+  height: 52px;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  padding-left: 16px;
+}
+.subscribe-wrapper-item__input::-moz-placeholder {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #9A9CA5;
+}
+.subscribe-wrapper-item__input::placeholder {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #9A9CA5;
+}
+.subscribe-wrapper-item__form-button {
+  width: 154px;
+  height: 52px;
+  background: #17696A;
+  border-radius: 0px 4px 4px 0px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+  align-items: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+.subscribe-wrapper-item__wrapper-checkbox {
+  padding-top: 24px;
+}
+.subscribe-wrapper-item__label-checkbox {
+  padding-left: 12px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+.subscribe-wrapper-item__image {
+  padding-top: 65px;
+}
+
+.footer {
+  background-color: #1E212C;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-wrapper-item__title {
+  padding-top: 60px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+.footer-wrapper-item__list-item {
+  margin-bottom: 4px;
+}
+.footer-wrapper-item__list-link {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+.footer-wrapper-item__list-span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
+.footer-wrapper-item__list-socials {
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-wrapper-item__list-socials-item {
+  padding-right: 12px;
+}
+.footer-wrapper-item__appstore {
+  margin-right: 20px;
+}
+
+.footer-copyright {
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copyright__text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  align-items: center;
+  color: #FFFFFF;
+}
+.footer-copyright__link {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.6;
 }
 
 .wrapper {
