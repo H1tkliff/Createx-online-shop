@@ -190,8 +190,10 @@
   margin-right: 30px;
   &__rating {
     position: absolute;
-    right: 2%;
     top: 16px;
+    // right: 10%;
+    // left: 0;
+    padding-left: 183px;
   }
   &__like {
     content: "";
@@ -605,6 +607,7 @@
 }
 
 .sale-slider-item {
+  
   margin-right: 30px;
   width: 390px !important;
   &__img {
@@ -648,6 +651,9 @@
     text-decoration-line: line-through;
     color: $gray-700;
   }
+}
+.sale-slider-item:hover{
+  
 }
 .sale-slider .slick-arrow {
   content: "";

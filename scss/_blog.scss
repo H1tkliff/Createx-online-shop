@@ -1,0 +1,258 @@
+.fashion-blog-wrapper{
+    padding-top: 32px;
+}
+.fashion-blog-info-block{
+    &__main-title{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 46px;
+        line-height: 130%;
+        color: $gray-900;
+        margin-bottom: 32px;
+    }
+    &__img{
+        display: block;
+        margin-bottom: 16px;
+    }
+    &__category,&__data,&__comments{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        align-items: center;
+        color: $gray-700;
+    }
+    &__category,&__data{
+        border-right: 1px solid $gray-700;
+        padding-right: 12px;
+    }
+    &__data,&__comments{
+        padding-left: 12px;
+    }
+    &__comments{
+        padding-left: 34px;
+        position: relative;
+    }
+    &__comments::before{
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: url(../img/icons/chat.svg);
+        left: 12px;
+    }
+    &__title{
+        padding-top: 8px;   
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        color: $gray-900;
+        margin-bottom: 8px;
+    }
+    &__text{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: $gray-800;
+        width: 810px;
+        margin-bottom: 46px;
+    }
+}
+
+.faschion-blog-pagination{
+    display: flex;
+    &__item{
+        padding-right: 20px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        color: $green-primary;
+
+   }
+}
+.fashion-blog-item-sidebar{
+    width: 349px;
+}
+.fashion-blog-item{
+    &__input{
+        margin-top: 8px;
+        width: 342px;
+        height: 44px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: $gray-600;
+        padding-left: 16px;
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+     
+    }
+    &__form{
+        position: relative;
+    }
+    &__input::before{
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: url(../img/icons/main-menu-search.svg);
+        right: 17px;
+        top: 14px;
+    }
+    &__title-categories{
+        padding-top: 32px;
+        margin-top: 32px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+        color: $gray-900;
+        border-top: 1px solid $gray-300;
+        margin-bottom: 24px;
+
+    }
+}
+
+.fashion-blog-item-sort-item{
+    display: flex;
+    justify-content: space-between;
+    &__button{
+        background-color: white;
+    }
+    &__value{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        align-items: center;
+        color: $gray-800;
+
+    }
+    &__num{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        align-items: center;
+        text-align: right;
+        color: $gray-800;
+
+    }
+
+}
+
+.fashion-blog-item-featured-posts{
+    &__title{
+        padding-top: 32px;
+        margin-top: 32px;
+        border-top: 1px solid $gray-300;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+        color: $gray-900;
+        margin-bottom: 24px;
+
+    }
+}
+.fashion-blog-item-featured-post{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.fashion-blog-item-featured-post-info{
+    padding-left: 20px;
+    position: relative;
+    &__data{
+        padding-left: 24px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        align-items: center;
+        color: $gray-700;
+        margin-bottom: 4px;
+       
+    }
+    &__data::before{
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: url(../img/icons/clock.svg);
+        left: 19px;
+    }
+    &__text{
+        width: 222px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        color: $gray-900;
+    }   
+}
+.fashion-blog-item-tags{
+    &__title{
+        padding-top: 32px;
+        margin-top: 32px;
+        border-top: 1px solid $gray-300;
+        margin-bottom: 24px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+        color: $gray-900;
+    }
+}
+.fashion-blog-item-tags-wrapper{
+    &__button{
+        height: 32px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        align-items: flex-end;
+        color: $gray-700;
+        background-color: white;
+        border: 1px solid $gray-400;
+        border-radius: 4px; 
+        margin-right: 13px;
+        margin-bottom: 12px;
+    }
+    &__button--trends{
+        width: 80px;
+    }
+    &__button--inspiration{
+        width: 107px;
+    }
+    &__button--designers{
+        width: 100px;
+    }
+    &__button--kidsfaschion{
+        width: 111px;
+    }
+    &__button--streetstile{
+        width: 107px;
+    }
+    &__button--models{
+        width: 85px;
+    }
+}
