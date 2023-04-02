@@ -3,6 +3,7 @@
 @import '_index.scss';
 @import '_blog.scss';
 @import '_header.scss';
+@import '_blog-hottest-sneakers';
 
 .wrapper{
     max-width: 1260px !important;
@@ -11,6 +12,11 @@
 
 .big-wrapper{
     max-width: 1860px;
+    margin: 0 auto;
+}
+
+.small-wrapper{
+    width: 810px;
     margin: 0 auto;
 }
 

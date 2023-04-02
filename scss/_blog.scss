@@ -1,5 +1,6 @@
 .fashion-blog-wrapper{
     padding-top: 32px;
+    margin-bottom: 180px;
 }
 .fashion-blog-info-block{
     &__main-title{
@@ -52,6 +53,9 @@
         line-height: 150%;
         color: $gray-900;
         margin-bottom: 8px;
+    }
+    &__title:hover{
+        color: $green-primary;
     }
     &__text{
         font-family: 'Lato';

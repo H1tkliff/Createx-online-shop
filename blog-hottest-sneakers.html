@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATEX-SHOP</title>
+    <link rel="stylesheet" href="./scss/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="header-nav">
+            <div class="wrapper">
+                <div class="header-nav-flex">
+                    <div class="header-nav-tel">
+                        <span class="header-nav-tel__info">
+                            Available 24/7 at
+                        </span>
+                        <a href="tel:(405) 555-0128" class="header-nav-tel__link">(405) 555-0128</a>
+                    </div>
+                    <div class="header-nav-menu">
+                        <ul class="header-nav-menu__links">
+                            <li class="header-nav-menu__item">
+                                <a href="#!" class="header-nav-menu__link">
+                                    Delivery & returns
+                                </a>
+                            </li>
+                            <li class="header-nav-menu__item">
+                                <a href="#!" class="header-nav-menu__link">
+                                    Track order
+                                </a>
+                            </li>
+                            <li class="header-nav-menu__item">
+                                <a href="blog.html" class="header-nav-menu__link">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="header-nav-menu__item">
+                                <a href="#!" class="header-nav-menu__link">
+                                    Contacts
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-nav-language">
+                        <img src="./img/icons/navbar-flag-usa.svg" alt="flag-usa" class="header-nav-language__flag">
+                        <select id="select-language">
+                            <option value="ENG">Eng / $</option>
+                            <option value="RUS">Rus / ₽</option>
+                            <option value="DE">DE / €</option>
+                        </select>
+                    </div>
+                    <div class="header-nav-account">
+                        <img src="./img/icons/navbar-profile.svg" alt="profile">
+                        <a href="#!" class="header-nav-account__log-in">Log in /</a>
+                        <a href="#!" class="header-nav-account__registration">Register</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="main-menu">
+            <div class="wrapper">
+                <div class="main-menu-wrapper">
+                    <div class="main-menu-logo">
+                        <a href="index.html" class="main-menu-logo__link">
+                            <img src="./img/main-menu-logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="main-menu-type-clothes">
+                        <ul class="main-menu-type-clothes__links">
+                            <li class="main-menu-type-clothes__item">
+                                <a href="#!" class="main-menu-type-clothes__link">Women</a>
+                            </li>
+                            <li class="main-menu-type-clothes__item">
+                                <a href="#!" class="main-menu-type-clothes__link">Men</a>
+                            </li>
+                            <li class="main-menu-type-clothes__item">
+                                <a href="#!" class="main-menu-type-clothes__link">Girls</a>
+                            </li>
+                            <li class="main-menu-type-clothes__item">
+                                <a href="#!" class="main-menu-type-clothes__link">Boys</a>
+                            </li>
+                            <li class="main-menu-type-clothes__item">
+                                <a href="#!"
+                                    class="main-menu-type-clothes__link main-menu-type-clothes__link--active">Sale</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form action="" class="main-manu-search">
+                        <input type="text" class="main-manu-search__input" placeholder="Search for products...">
+                    </form>
+                    <div class="main-menu-shop">
+                        <img src="./img/icons/main-menu-like.svg" alt="like">
+                        |
+                        <img src="./img/icons/main-manu-basket.svg" alt="backet">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-sales">
+            <div class="wrapper">
+                <div class="menu-sales-info">
+                    <span class="menu-sales-info__text">Up to 70% Off.</span>
+                    <a href="#!" class="menu-sales-info__link">Shop our latest sale styles</a>
+                </div>
+            </div>
+        </div>
+        <div class="breadcrumb">
+            <div class="wrapper">
+                <div class="breadcrumb__wrapper">
+                    <a href="index.html" class="breadcrumb__icon-link">
+                        <img src="img/icons/home.svg" alt="home.svg">
+                    </a>
+                    <img src="img/icons/breadcrubm-right-chevron.svg" alt="breadcrubm-right-chevron"
+                        class="breadcrumb__icon-next">
+    
+                    <a href="blog.html" class="breadcrumb__current-link">
+                        Fashion blog
+                    </a>
+                    <img src="img/icons/breadcrubm-right-chevron.svg" alt="breadcrubm-right-chevron" class="breadcrumb__current-icon-hottest-sneakers">
+                    <a href="blog-hottest-sneakers.html" class="breadcrumb__current-link breadcrumb__current-link-hottest-sneakers">
+                        Top 10 of This Season’s Hottest Sneakers
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="blog-info">
+            <div class="small-wrapper">
+                <h1 class="blog-info__title">
+                    Top 10 of This Season’s Hottest Sneakers
+                </h1>
+                <div class="blog-info-wrapper">
+                    <div class="blog-info-wrapper-item">
+                        <span class="blog-info-wrapper-item__category">
+                            Lifestyle
+                        </span>
+                        <span class="blog-info-wrapper-item__data">
+                            July 16, 2020
+                        </span>
+                        <span class="blog-info-wrapper-item__comments">
+                            4 comments
+                        </span>
+                    </div>
+                    <div class="blog-info-wrapper-item">
+                        <ul class="blog-info-wrapper-item__list">
+                            <li class="blog-info-wrapper-item__list-item">
+                                <a href="https://www.facebook.com/" class="blog-info-wrapper-item__link" target="_blank">
+                                    <img src="img/icons/facebook-gray-link.svg" alt="facebook-gray-link">
+                                </a>
+                            </li>
+                            <li class="blog-info-wrapper-item__list-item">
+                                <a href="https://www.instagram.com/" class="blog-info-wrapper-item__link" target="_blank">
+                                    <img src="img/icons/instagram-gray-link.svg" alt="instagram-gray-link">
+                                </a>
+                            </li>
+                            <li class="blog-info-wrapper-item__list-item">
+                                <a href="https://www.twiiter.com/" class="blog-info-wrapper-item__link" target="_blank">
+                                    <img src="img/icons/twitter-hover-link.svg" alt="twitter-hover-link">
+                                </a>
+                            </li>
+                            <li class="blog-info-wrapper-item__list-item">
+                                <a href="https://www.linkedin.com/" class="blog-info-wrapper-item__link" target="_blank">
+                                    <img src="img/icons/linkedin-gray-link.svg" alt="linkedin-gray-link">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                    <hr class="blog-info-wrapper-item__divider">
+                <img src="./img/blog-hottest-sneakers-main-img.png" alt="blog-hottest-sneakers-main-img" class="blog-info__img">
+                <p class="blog-info__paragpaph-1">
+                    Vulputate vitae pellentesque scelerisque luctus consequat mattis pellentesque dui odio. Interdum aenean sit malesuada
+                    ornare sed gravida rhoncus, congue. Purus auctor nullam diam quis est hendrerit ac euismod.
+                </p>
+                <p class="blog-info__paragpaph-2">
+                    At facilisi sapien posuere eget nunc senectus proin nullam. Tortor senectus in et sagittis, vitae diam cras dignissim.
+                    Varius adipiscing eget diam nisi. Orci, consectetur vulputate metus ornare pharetra, neque, fermentum. Vel nec rhoncus,
+                    non nunc, neque in massa. Feugiat leo nam nisl lacinia amet, odio. Mi varius viverra risus vel.
+                </p>
+                <p class="blog-info__paragpaph-3">
+                    Amet, morbi sed pharetra, elit eget mi potenti. Condimentum orci interdum feugiat lectus libero duis. Nisl massa,
+                    elementum varius sit. Nunc felis, porttitor aliquam urna, accumsan et sed. Aliquet non sed duis diam vehicula rhoncus.
+                    In dictum nullam tincidunt semper pellentesque purus morbi sed. Ut aliquet velit pharetra, nisi nunc, non.
+                </p>
+                <div class="blog-info__paragraph-with-icon">
+                    <p class="blog-info__paragpaph-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet,
+                        eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in tot euismod
+                        vulputate etiam eros. Vel accumsan at elit neque, ipsum.
+                    </p>
+                </div>
+                <p class="blog-info__paragpaph-ul">
+                    Mauris amet arcu nisl vel dictum tellus. Sed rhoncus, ut sed id ut erat mattis. Vitae mus blandit in neque amet non
+                    fringilla blandit:
+                </p>
+                <ul class="blog-info-list">
+                    <li class="blog-info-list__link">
+                        A fermentum in morbi pretium aliquam adipiscing donec tempus.
+                    </li>
+                    <li class="blog-info-list__link">
+                        Vulputate placerat amet pulvinar lorem nisl.
+                    </li>
+                    <li class="blog-info-list__link">
+                        Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.
+                    </li>
+                    <li class="blog-info-list__link">
+                        Etiam duis lobortis in fames ultrices commodo nibh.
+                    </li>
+                </ul>
+                <p class="blog-info__paragpaph-5">
+                    Enim, vel massa odio diam. Blandit massa gravida feugiat elementum id nec sed leo. Nisi in ornare lectus eget. Urna,
+                    risus, consectetur volutpat lorem purus. Velit aliquet nibh vitae maecenas. Consectetur neque ut aliquam eros, purus
+                    enim dignissim aenean vitae. Ultrices fames augue mattis tortor est justo, pharetra nibh risus. Facilisi at porttitor
+                    volutpat natoque proin amet, nulla. Vivamus ut lobortis sagittis curabitur tellus convallis eget netus vitae.
+                </p>
+                <div class="blog-info-links">
+                    <div class="blog-info-links-item">
+                        <span class="blog-info-links-item__tags-text">
+                            Tags:
+                        </span>
+                        <button class="fashion-blog-item-tags-wrapper__button fashion-blog-item-tags-wrapper__button--trends">
+                            #trends
+                        </button>
+                        <button class="fashion-blog-item-tags-wrapper__button fashion-blog-item-tags-wrapper__button--inspiration">
+                            #inspiration
+                        </button>
+                        <button class="fashion-blog-item-tags-wrapper__button fashion-blog-item-tags-wrapper__button--designers">
+                            #designers
+                        </button>
+                    </div>
+                    <div class="blog-info-links-item">
+                        <span class="blog-info-links-item__share-text">
+                            Share:  
+                        </span>
+                    <ul class="blog-info-wrapper-item__list">
+                        <li class="blog-info-wrapper-item__list-item">
+                            <a href="https://www.facebook.com/" class="blog-info-wrapper-item__link" target="_blank">
+                                <img src="img/icons/facebook-gray-link.svg" alt="facebook-gray-link">
+                            </a>
+                        </li>
+                        <li class="blog-info-wrapper-item__list-item">
+                            <a href="https://www.instagram.com/" class="blog-info-wrapper-item__link" target="_blank">
+                                <img src="img/icons/instagram-gray-link.svg" alt="instagram-gray-link">
+                            </a>
+                        </li>
+                        <li class="blog-info-wrapper-item__list-item">
+                            <a href="https://www.twiiter.com/" class="blog-info-wrapper-item__link" target="_blank">
+                                <img src="img/icons/twitter-gray-link.svg" alt="twitter-gray-link">
+                            </a>
+                        </li>
+                        <li class="blog-info-wrapper-item__list-item">
+                            <a href="https://www.linkedin.com/" class="blog-info-wrapper-item__link" target="_blank">
+                                <img src="img/icons/linkedin-gray-link.svg" alt="linkedin-gray-link">
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                <hr class="blog-info-wrapper-item__divider">
+                <div class="blog-info-other-posts">
+                    <div class="blog-info-other-posts-item">
+                        <a href="#!" class="blog-info-other-posts-item__left-link">
+                            Prev Post
+                        </a>
+                        <div class="blog-info-other-posts-item__wrapper">
+                            <div class="blog-info-other-posts-items__wrapper-item">
+                                <img src="img/blog-best-fashion-instagrams-small.png" alt="blog-best-fashion-instagrams-small">
+                            </div>
+                            <div class="blog-info-other-posts-item__wrapper-item-left">
+                                <p class="blog-info-other-posts-item__wrapper-item-data">
+                                    April 9, 2020
+                                </p>
+                                <h3 class="blog-info-other-posts-item__wrapper-item-title">
+                                    Best Fashion Instagrams of the Week
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-info-other-posts-item">
+                        <a href="#!" class="blog-info-other-posts-item__right-link">
+                            Next Post
+                        </a>
+                        <div class="blog-info-other-posts-item__wrapper">
+                            <div class="blog-info-other-posts-item__wrapper-item-right">
+                                <p class="blog-info-other-posts-item__wrapper-item-data">
+                                    March 12, 2020
+                                </p>
+                                <h3 class="blog-info-other-posts-item__wrapper-item-title">
+                                    Top 10 Looks from the Venice Film Festival
+                                </h3>
+                            </div>
+                            <div class="blog-info-other-posts-item__wrapper-item">
+                                <img src="img/blog-top-10-looks-venice-small.png" alt="blog-top-10-looks-venice-small">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="related-posts">
+            <div class="wrapper">
+                <div class="related-posts-top-wrapper">
+                    <div class="related-posts-top-wrapper-item">
+                        <h2 class="related-posts-top-wrapper-item__title">
+                            Related posts
+                        </h2>
+                    </div>
+                    <div class="related-posts-top-wrapper-item">
+                        <a href="#!" class="related-posts-top-wrapper-item__link">
+                            View all posts
+                        </a>
+                    </div>
+                </div>
+                <div class="related-posts-wrapper">
+                    <div class="related-posts-wrapper-item">
+                        <img class="related-posts-wrapper-item__img" src="img/faschion-blog-basket.png" alt="faschion-blog-basket">
+                        <h3 class="related-posts-wrapper-item__title">
+                            Bag Trends for Summer 2020
+                        </h3>
+                        <span class="fashion-blog-info-block__category related-posts-wrapper-item__category">
+                            Fashion
+                        </span>
+                        <span class="fashion-blog-info-block__data">
+                            August 24, 2020
+                        </span>
+                        <span class="fashion-blog-info-block__comments">
+                            No comments
+                        </span>
+                        <p class="related-posts-wrapper-item__text">
+                            Ipsum aliquet nisi, hendrerit rhoncus quam tortor, maecenas faucibus. Tincidunt aliquet sit vel, venenatis nulla.
+                            Integer bibendum turpis convallis...
+                        </p>
+                    </div>
+                    <div class="related-posts-wrapper-item">
+                    <img class="related-posts-wrapper-item__img" src="img/faschion-blog-t-shirt.png" alt="faschion-blog-t-shirt">
+                    <h3 class="related-posts-wrapper-item__title">
+                        Wardrobe Essentials Everyone Should Own Today
+                    </h3>
+                    <span class="fashion-blog-info-block__category related-posts-wrapper-item__category">
+                        Fashion
+                    </span>
+                    <span class="fashion-blog-info-block__data">
+                        Fugust 5, 2020
+                    </span>
+                    <span class="fashion-blog-info-block__comments">
+                        No comments
+                    </span>
+                    <p class="related-posts-wrapper-item__text">
+                        Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus
+                        maecenas lacus...
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="comments">
+            <div class="small-wrapper">
+                <h2 class="comments__title">
+                    4 comments
+                </h2>
+                <div class="comments-wrapper">
+                    <div class="comments-wrapper-item">
+                        <h4 class="comments-wrapper-item__name">
+                            Devon Lane
+                        </h4>
+                        <p class="comments-wrapper-item__date-of-publication">
+                            July 15, 2020
+                        </p>
+                    </div>
+                    <div class="comments-wrapper-item">
+                        <p class="comments-wrapper-item__comment">
+                            Phasellus varius faucibus ultrices odio in. Massa neque dictum natoque ornare rutrum malesuada et phasellus. Viverra
+                            natoque nulla cras vel nisl proin senectus. Tortor sed eleifend ante tristique felis sed urna aliquet. Suspendisse fames
+                            egestas sed duis purus diam et.
+                        </p>
+                        <button class="comments-wrapper-item__reply">
+                            Reply
+                        </button>
+                    </div>
+                </div>
+                <div class="comments-wrapper">
+                    <div class="comments-wrapper-item">
+                        <h4 class="comments-wrapper-item__name">
+                            Annette Black
+                        </h4>
+                        <p class="comments-wrapper-item__date-of-publication">
+                            1 day ago
+                        </p>
+                    </div>
+                    <div class="comments-wrapper-item">
+                        <p class="comments-wrapper-item__comment">
+                            @Devon Lane Egestas fermentum natoque sollicitudin mauris. Facilisis praesent urna sed rhoncus quis pharetra
+                            pellentesque erat sagittis.
+                        </p>
+                        <button class="comments-wrapper-item__reply">
+                            Reply
+                        </button>
+                    </div>
+                </div>
+                <div class="comments-wrapper">
+                    <div class="comments-wrapper-item">
+                        <h4 class="comments-wrapper-item__name">
+                            Albert Flores
+                        </h4>
+                        <p class="comments-wrapper-item__date-of-publication">
+                            July 7, 2020
+                        </p>
+                    </div>
+                    <div class="comments-wrapper-item">
+                        <p class="comments-wrapper-item__comment">
+                            Libero commodo sit dui ac proin. Penatibus ultricies at adipiscing mauris nunc. Fames faucibus nisl duis id diam.
+                        </p>
+                        <button class="comments-wrapper-item__reply">
+                            Reply
+                        </button>    
+                    </div>
+                </div>
+                <div class="comments-wrapper">
+                    <div class="comments-wrapper-item">
+                        <h4 class="comments-wrapper-item__name">
+                            Marvin McKinney
+                        </h4>
+                        <p class="comments-wrapper-item__date-of-publication">
+                            June 28, 2020
+                        </p>
+                    </div>
+                    <div class="comments-wrapper-item">
+                        <p class="comments-wrapper-item__comment">
+                            Ullamcorper nibh sed ac ipsum nunc imperdiet rhoncus. Quam donec habitant nibh sit consequat erat libero, tincidunt.
+                            Eros ut aliquam proin et duis. Mauris, egestas congue nibh dui a nulla.
+                        </p>
+                        <button class="comments-wrapper-item__reply">
+                            Reply
+                        </button>
+                    </div>
+                </div>
+                <h3 class="comments-title-new-comment">
+                    Leave your comment
+                </h3>
+                    <form action="" class="comments-form">
+                        <div class="comments-form__wrapper">
+                            <div class="comments-form__wrapper-item">
+                                <label for="" class="comments-form__wrapper-label">
+                                    Name*
+                                </label>
+                                <input type="text" class="comments-form__wrapper-input" placeholder="Your name" required>
+                            </div>
+                            <div class="comments__form-wrapper-item">
+                                <label for="" class="comments-form__wrapper-label">
+                                    Email*
+                                </label>
+                                <input type="text" class="comments-form__wrapper-input" placeholder="Your working email" required>
+                            </div>
+                        </div>
+                        <label for="" class="comments-form__label-comment">
+                            Your comment*
+                        </label>
+                        <input type="text" class="comments-form__input-comment" placeholder="Type comment here" required>
+
+                        <button class="comments-form__button">
+                            Post comment
+                        </button>
+                    </form>
+            </div>
+        </section>
+
+        <section class="subscribe subscribe-sneakers">
+            <div class="wrapper">
+                <div class="subscribe-wrapper">
+                    <div class="subscribe-wrapper-item">
+                        <h2 class="subscribe-wrapper-item__title">
+                            Subscribe for updates
+                        </h2>
+                        <p class="subscribe-wrapper-item__text">
+                            Subscribe for exclusive early sale access and new arrivals.
+                        </p>
+                        <button class="subscribe-wrapper-item__button">
+                            Women
+                        </button>
+                        <button class="subscribe-wrapper-item__button">
+                            Men
+                        </button>
+                        <button class="subscribe-wrapper-item__button subscribe-wrapper-item__button--active">
+                            Girls
+                        </button>
+                        <button class="subscribe-wrapper-item__button">
+                            Boys
+                        </button>
+                        <form action="" class="subscribe-wrapper-item__form">
+                            <label for="" class="subscribe-wrapper-item__label">
+                                Email
+                            </label>
+                            <input type="text" class="subscribe-wrapper-item__input" placeholder="Your working email">
+                            <button class="subscribe-wrapper-item__form-button">
+                                Subscribe
+                            </button>
+                            <div class="subscribe-wrapper-item__wrapper-checkbox">
+                                <input type="checkbox" class="subscribe-wrapper-item__checkbox">
+                                <label for="" class="subscribe-wrapper-item__label-checkbox">
+                                    I agree to receive communications from Createx Store.
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="subscribe-wrapper-item">
+                        <img src="img/subscribe-right.png" alt="subscribe-right" class="subscribe-wrapper-item__image">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-wrapper">
+                <div class="footer-wrapper-item">
+                    <h3 class="footer-wrapper-item__title">
+                        HELP
+                    </h3>
+                    <ul class="footer-wrapper-item__list">
+                        <li class="footer-wrapper-item__list-item">
+                            <a href="#!" class="footer-wrapper-item__list-link">
+                                Delivery & returns
+                            </a>
+                        </li>
+                        <li class="footer-wrapper-item__list-item">
+                            <a href="#!" class="footer-wrapper-item__list-link">
+                                FAQ
+                            </a>
+                        </li>
+                        <li class="footer-wrapper-item__list-item">
+                            <a href="#!" class="footer-wrapper-item__list-link">
+                                Track order
+                            </a>
+                        </li>
+                        <li class="footer-wrapper-item__list-item">
+                            <a href="#!" class="footer-wrapper-item__list-link">
+                                Contacts
+                            </a>
+                        </li>
+                        <li class="footer-wrapper-item__list-item">
+                            <a href="#!" class="footer-wrapper-item__list-link">
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-wrapper-item">
+                    <h3 class="footer-wrapper-item__title">
+                        Shop
+                    </h3>
+                    <ul class="footer-wrapper-item__list">
+                        <li class="footer-wrapper-item__list-item">
+                            <a href="#!" class="footer-wrapper-item__list-link">
+                                New arrivals
+                            </a>
+                        </li>
+                        <li class="footer-wrapper-item__list-item">
+                            <a href="#!" class="footer-wrapper-item__list-link">
+                                Trending now
+                            </a>
+                        </li>
+                        <li class="footer-wrapper-item__list-item">
+                            <a href="#!" class="footer-wrapper-item__list-link">
+                                Sales
+                            </a>
+                        </li>
+                        <li class="footer-wrapper-item__list-item">
+                            <a href="#!" class="footer-wrapper-item__list-link">
+                                Brands
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-wrapper-item">
+                    <h3 class="footer-wrapper-item__title">
+                        Get in touch
+                    </h3>
+                    <ul class="footer-wrapper-item__list">
+                        <li class="footer-wrapper-item__list-item">
+                            <span class="footer-wrapper-item__list-span">
+                                Call:
+                            </span>
+                            <a href="tel:(405) 555-0128" class="footer-wrapper-item__list-link">
+                                (405) 555-0128
+                            </a>
+                        </li>
+                        <li class="footer-wrapper-item__list-item">
+                            <span class="footer-wrapper-item__list-span">
+                                Email:
+                            </span>
+                            <a href="mailto:hello@createx.com" class="footer-wrapper-item__list-link">
+                                hello@createx.com
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="footer-wrapper-item__list-socials">
+                        <li class="footer-wrapper-item__list-socials-item">
+                            <a href="https://www.facebook.com/" class="footer-wrapper-item__list-socials-link"
+                                target="_blank">
+                                <img src="img/icons/facebok-link.svg" alt="facebok-link">
+                            </a>
+                        </li>
+                        <li class="footer-wrapper-item__list-socials-item">
+                            <a href="https://www.instagram.com/" class="footer-wrapper-item__list-socials-link"
+                                target="_blank">
+                                <img src="img/icons/instagram-link.svg" alt="instagram-link">
+                            </a>
+                        </li>
+                        <li class="footer-wrapper-item__list-socials-item">
+                            <a href="https://www.twiiter.com/" class="footer-wrapper-item__list-socials-link"
+                                target="_blank">
+                                <img src="img/icons/twitter-link.svg" alt="twitter-link">
+                            </a>
+                        </li>
+                        <li class="footer-wrapper-item__list-socials-item">
+                            <a href="https://www.youtube.com/" class="footer-wrapper-item__list-socials-link"
+                                target="_blank">
+                                <img src="img/icons/youtube-link.svg" alt="youtube-link">
+                            </a>
+                        </li>
+                        <li class="footer-wrapper-item__list-socials-item">
+                            <a href="https://www.pinterest.com/" class="footer-wrapper-item__list-socials-link"
+                                target="_blank">
+                                <img src="img/icons/pinterest-link.svg" alt="pinterest-link">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-wrapper-item">
+                    <h3 class="footer-wrapper-item__title">
+                        Download our app
+                    </h3>
+                    <div class="footer-wrapper-item__app-buttons">
+                        <img src="img/app-store.png" alt="app-store" class="footer-wrapper-item__appstore">
+                        <img src="img/google-play.png" alt="google-play" class="footer-wrapper-item__googleplay">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <span class="footer-copyright__text">
+                    © All rights reserved.
+                </span>
+                <a href="index.html" class="footer-copyright__link">
+                    Go to top
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
