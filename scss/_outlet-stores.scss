@@ -1,0 +1,66 @@
+.otlet-stores-wrapper-item--grid{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+    grid-gap: 48px 30px;
+}
+.otlet-stores-item{
+    height: 451px;
+    border: 1px solid $gray-300;
+    border-radius: 4px;
+    &__title,&__list{
+        padding-left: 24px;
+    }
+    &__title{
+        margin-top: 24px;
+        margin-bottom: 24px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+        align-items: center;
+        color: $gray-900;
+    }
+    &__list-item{
+        padding-left: 32px;
+        position: relative;
+        margin-bottom: 12px;
+    }
+    &__list-item::before{
+        content: "";
+        position: absolute;
+        left: 1px;
+    }
+    &__list-item--phone::before{
+        background: url(../img/icons/phone-noback.svg);
+         width: 20px;
+        height: 20px;
+        top: 2px;
+    }
+    &__list-item--mail::before{
+        background: url(../img/icons/email-noback.svg);
+         width: 18px;
+        height: 15px;
+        top: 6px;
+    }
+    &__list-item--clock::before{
+        background: url(../img/icons/clock-noback.svg);
+         width: 19px;
+        height: 19px;
+        top: 2px;
+    }
+    &__list-item--location::before{
+        background: url(../img/icons/location-noback.svg);
+         width: 20px;
+        height: 20px;
+        top: 2px;
+    }
+    &__list-link{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: $gray-800;
+    }
+}

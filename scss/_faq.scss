@@ -1,0 +1,41 @@
+.faq-wrapper-item--info{
+    width: 800px;
+}
+.faq-wrapper-item{
+    &__details{
+        position: relative;
+    }
+    &__summary{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        color: $gray-900;
+        margin-bottom: 16px;
+        display:inline-block;
+        
+    }
+    &__text{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: $gray-700;
+        margin-bottom: 40px;
+        width: 770px;
+    }
+    &__summary::after{
+        content: '';
+        background: url(../img/icons/plus.svg);
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        right: 1px;
+    }
+    details[open] > summary:after {
+    content: "";
+    background: url(../img/icons/minus.svg);
+    }
+}

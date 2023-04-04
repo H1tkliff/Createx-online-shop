@@ -1,9 +1,12 @@
 @import '_nullstyles';
 @import '_variables';
-@import '_index.scss';
-@import '_blog.scss';
-@import '_header.scss';
+@import '_index';
+@import '_blog';
+@import '_header';
 @import '_blog-hottest-sneakers';
+@import '_contacts';
+@import '_outlet-stores';
+@import '_faq';
 
 .wrapper{
     max-width: 1260px !important;
