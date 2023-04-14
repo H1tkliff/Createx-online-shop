@@ -533,7 +533,6 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 130%;
-    display: flex;
     align-items: center;
     color: $gray-900;
   }
@@ -937,6 +936,7 @@
 .subscribe-wrapper{
   display: flex;
   justify-content: space-between;
+  padding-bottom: 100px;
 }
 .subscribe-wrapper-item{
   &__title{

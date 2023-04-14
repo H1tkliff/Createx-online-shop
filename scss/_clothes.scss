@@ -1,0 +1,274 @@
+.wrapper-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    &__button{
+        display: block;
+        width: 255px;
+        height: 44px;
+        background-color: $green-primary;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 44px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        border-radius: 4px;
+        margin-bottom: 32px;
+        position: relative;
+    }
+    &__button::before{
+        display: inline-block;
+        position: relative;
+        content: "";
+        background: url(../img/icons/filter-hide.svg);
+        width: 16px;
+        height: 16px;
+        top: 2px;
+        left: -7px;
+    }
+    &__sort-by,&__show{
+        
+    }
+    &__sort-by-label,&__show-label{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        color: $gray-800;
+        margin-right: 12px;
+    }
+    &__sort-by-select,&__show-select{
+        background: #FFFFFF;
+        border: 1px solid $gray-400;
+        border-radius: 4px;
+        width: 170px;
+        height: 44px;
+        padding-left: 16px;
+        
+    }
+    &__show-select{
+       width: 80px;
+    }
+    &__show-label-info{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: $gray-700;
+        margin-left: 12px;
+    }
+    &__pagination{
+        padding-top: 10px;
+    }
+    &__pagination-link{
+        display: inline-block;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        color: $gray-800;
+        padding-right: 20px;
+    }
+    &__pagination-link--active{
+        color: $green-primary;
+    }
+    &__pagination-other{
+        padding-right: 20px;
+    }
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 180px;
+}
+.aside-clothes--close{
+    display: none;
+}
+.aside-clothes{
+    width: 260px;
+    &__details{
+        position: relative;
+        border-bottom: 1px solid $gray-300;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    &__summary{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        align-items: center;
+        color: $gray-900;
+        margin-bottom: 16px;
+        display:inline-block;    
+    }
+    &__summary::after{
+        content: '';
+        background: url(../img/icons/plus.svg);
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        right: 1px;
+    }
+     details[open] > summary:after {
+    content: "";
+    background: url(../img/icons/minus.svg);
+    }
+    &__form{
+        position: relative;
+    }
+    &__input{
+        width: 255px;
+        height: 36px;
+        border: 1px solid $gray-400;
+        border-radius: 4px;     
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: $gray-600;
+        padding-left: 12px;
+        margin-bottom: 16px;
+    }
+    &__input::after{
+        content: "";
+        background: url(../img/icons/search-gray.svg);
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: 17px;
+        top: 14px;
+    }
+    &__form-wrapper-label{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: $gray-800;
+        padding-left: 12px;
+        padding-right: 4px;
+    }
+    &__form-wrapper-span{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: $gray-600;
+    }
+}
+.aside-clothes-wrapper{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-gap: 10px,8px;
+   }
+
+.aside-clothes-wrapper-item{
+    &__circle{
+        width: 32px; 
+        height: 32px;
+        border-radius: 50%;
+        margin-left: 16px;
+
+    }
+    &__circle-black{
+        background: #000000;
+    }
+    &__circle-blue-gray{
+        background: #C0DDED;
+    }
+    &__circle-yellow{
+        background: #FCD164;
+    }
+    &__circle-red{
+        background: #F75151;
+    }
+    &__circle-dark-blue{
+        background: #0C2C7E;
+    }
+    &__circle-beige{
+        background: #D8C1AD;
+    }
+    &__circle-brown{
+        background: #874E19;
+    }
+    &__circle-gray{
+        background: #9A9494;
+    }
+    &__circle-purple{
+        background: #A27AC9;
+    }
+    &__circle-green{
+        background: #67BA92;
+    }
+    &__circle-orange{
+        background: #FB9620;
+    }
+    &__circle-white{
+        background: #F1F1F1;
+    }
+    &__title{
+        padding-top: 2px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: $gray-700;
+        text-align: center;
+
+    }
+}
+
+.clothes-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px 60px;
+    width: 915px;
+}
+.clothes-wrapper--filters{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) !important;
+    grid-gap: 30px 60px;
+    width: 915px;
+}
+.clothes-wrapper-item{
+     position: relative;
+    &__img{
+        width: 285px;
+        height: 320px;
+       
+    }
+    &__rating{
+        position: absolute;
+        padding-top: 12px;
+        padding-left: 190px;
+    }
+    &__current-sale{
+        position: absolute;
+        padding-top: 12px;
+        padding-left: 24px;
+
+    }
+    &__button-like{
+        position: absolute;
+        background: url(../img/icons/main-menu-like.svg);
+        width: 32px;
+        height: 32px;
+        top: 272px;
+        right: 16px;
+    }
+    &__sale--red{
+        color: #FF4242;
+    }
+}

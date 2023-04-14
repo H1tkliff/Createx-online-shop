@@ -40,3 +40,29 @@ $(document).ready(function () {
 
 
 
+//Clothes.html
+//Filters-button
+//wrapper-header__button
+$(function () {
+  const filtersButton = document.querySelector(".wrapper-header__button");
+filtersButton.addEventListener("click", function () {
+  document
+    .querySelector(".aside-clothes")
+    .classList.toggle("aside-clothes--close");
+
+  const initialText = "Show Filters";
+  const clothesWrapper = document.querySelector(".clothes-wrapper");
+  // const clothesWrapper = document.getElementById('#clothesWrapper');
+  if (filtersButton.textContent.toLowerCase().includes(initialText.toLowerCase())) {
+    filtersButton.innerHTML = 'Hide Filters'
+    clothesWrapper.style.gridTemplateColumns = "repeat(3,1fr)";
+  } else{
+    filtersButton.textContent = initialText;
+    clothesWrapper.style.gridTemplateColumns = "repeat(4,1fr)";
+
+  }
+});
+})
+
+
+
