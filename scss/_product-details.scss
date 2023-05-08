@@ -1,0 +1,209 @@
+.product-details-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 180px;
+}
+.product-details-wrapper-item{
+    &__title{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        align-items: center;
+        color: $gray-900;
+        margin-bottom: 16px;
+    }
+    &__text{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: $gray-800;
+        width: 735px;
+        margin-bottom: 20px;
+    }
+    &__list{
+        padding-bottom: 24px;
+        border-bottom: 1px solid $gray-300;
+        margin-bottom: 24px;
+        position: relative;
+    }
+    &__list:last-child{
+        border-bottom: none;
+    }
+    &__list-item{
+        margin-left: 20px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        align-items: center;
+        color: $gray-800;
+        margin-bottom: 4px; 
+    }
+    &__list-item::before{
+        content: "";
+        background: $green-primary;
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        left: 0;
+        margin-top: 13px;
+        border-radius: 50%;
+    }
+      &__list-ico{
+       
+    }
+    &__list-item-with-ico-1,&__list-item-with-ico-2,&__list-item-with-ico-3,&__list-item-with-ico-4{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        align-items: center;
+        color: $gray-800;
+        margin-bottom: 4px;
+        margin-left: 36px;
+        position: relative;
+    }
+    &__list-item-with-ico-1::before{
+        content: "";
+        position: absolute;
+        background: url(../img/icons/hand-wash.svg);
+        left: -38px;
+        top: 0;
+        width: 20px;
+        height: 20px;
+    }
+       &__list-item-with-ico-2::before{
+        content: "";
+        position: absolute;
+        background: url(../img/icons/no-ironing.svg);
+        left: -38px;
+        top: 0;
+        width: 20px;
+        height: 20px;
+    }
+       &__list-item-with-ico-3::before{
+        content: "";
+        position: absolute;
+        background: url(../img/icons/no-bleach.svg);
+        left: -38px;
+        top: 0;
+        width: 20px;
+        height: 20px;
+    }
+       &__list-item-with-ico-4::before{
+        content: "";
+        position: absolute;
+        background: url(../img/icons/no-tumble-dry.svg);
+        left: -38px;
+        top: 0;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+//aside
+.product-details-wrapper-slider{
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.16), 0px 30px 24px -10px rgba(154, 156, 165, 0.1), 0px 12px 10px -6px rgba(154, 156, 165, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+    border-radius: 4px;
+    width: 390px;
+    height: 646px;
+    position: relative;
+    &__rating{
+        padding-left: 292px;
+    }
+    &__img{
+        width: 390px;
+        height: 440px;
+    }
+    &__title{
+        padding-left: 16px;
+    }
+    &__sale--red{
+        padding-left: 16px;
+    }
+    &__button-add-to-cart{
+        margin-left: 16px;
+        width: 358px;
+        height: 44px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 44px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        background: $green-primary;
+        border-radius: 4px;
+        padding-left: 24px;
+        position: relative;
+    }
+     &__button-add-to-cart::before{
+        content: "";
+        position: absolute;
+        background: url(../img/icons/add-to-cart-icon.svg);
+        width: 16px;
+        height: 16px;
+        top: 31%;
+        left: 36%;
+     }
+}
+.product-details-wrapper-slider-parameters{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-left: 16px;
+    
+}
+.product-details-wrapper-slider-parameters-item{
+    &__size-chart{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        align-items: center;
+        text-align: center;
+        color: $gray-800;
+        margin-right: 8px;
+        border: 1px solid $gray-400;
+        border-radius: 4px;
+        width: 24px;
+        height: 24px;
+        background: white;
+        border-radius: 20%;
+    }
+    &__size-chart--active{
+        border: 1px solid $green-primary;
+        
+    }
+}
+
+.product-details-wrapper-slider .slick-arrow{
+    position: absolute;
+    top: 30%;
+    width: 18px;
+    height: 12px;
+    font-size: 0;
+    background: url(../img/icons/slider-stroke.svg);
+    content: "";
+}
+.product-details-wrapper-slider .slick-arrow.slick-prev{
+    margin-right: 44px;
+    left: 16px;
+    z-index: 10;
+    
+}
+.product-details-wrapper-slider  .slick-arrow.slick-next{
+    transform: rotate(-180deg);
+    right: 16px;
+}

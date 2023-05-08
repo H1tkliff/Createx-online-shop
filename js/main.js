@@ -38,6 +38,53 @@ $(document).ready(function () {
   });
 });
 
+//product-info-wrapper-slider
+$(document).ready(function () {
+  $(".product-info-wrapper-slider").slick({
+    // autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    
+  });
+});
+
+//complete-wrapper-slider
+$(document).ready(function () {
+  $(".complete-wrapper-slider").slick({
+    // autoplay: true,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    dots: true,
+  });
+});
+
+//interested-in-slider
+$(document).ready(function () {
+  $(".interested-in-slider").slick({
+    // autoplay: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+  });
+});
+
+//recently-viewed-slider
+$(document).ready(function () {
+  $(".recently-viewed-slider").slick({
+    // autoplay: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+  });
+});
+
+//product-details-wrapper-slider
+$(document).ready(function () {
+  $(".product-details-wrapper-slider").slick({
+    // autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  });
+});
 
 
 //Clothes.html
