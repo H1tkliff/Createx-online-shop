@@ -112,4 +112,67 @@ filtersButton.addEventListener("click", function () {
 })
 
 
+//reviews.html
+//Progress line
+$(function progress(){
+  let elem = document.querySelector("progress-line");
+  let width = 1;
+  let id = setInterval()
+})
+
+
+//mega menu
+
+
+//mega-menu-women
+$(function () {
+  const menu_women_button = document.querySelector(
+    ".main-menu-type-clothes-women"
+  );
+  menu_women_button.addEventListener("click", function () {
+    document
+      .querySelector(".mega-menu-wrapper")
+      .classList.toggle("mega-menu-wrapper--aktive");
+
+  });
+});
+//mega-menu-men
+$(function () {
+  const menu_men_button = document.querySelector(".main-menu-type-clothes-men");
+  menu_men_button.addEventListener("click", function () {
+    document
+      .querySelector(".mega-menu-wrapper")
+      .classList.toggle("mega-menu-wrapper--aktive");
+
+  });
+});
+
+//mega-menu-girls
+$(function () {
+   const menu_girls_button = document.querySelector(
+     ".main-menu-type-clothes-girls"
+   );
+  menu_girls_button.addEventListener("click", function () {
+    document
+      .querySelector(".mega-menu-wrapper")
+      .classList.toggle("mega-menu-wrapper--aktive");
+
+  });
+});
+
+//mega-menu-boys
+$(function () {
+   const menu_boys_button = document.querySelector(
+     ".main-menu-type-clothes-boys"
+   );
+  const mega_menu_wrapper = document.querySelector(".mega-menu-wrapper");
+  menu_boys_button.addEventListener("click", function () {
+    document
+      .querySelector(".mega-menu-wrapper")
+      .classList.toggle("mega-menu-wrapper--aktive");
+
+  });
+});
+
+
 
